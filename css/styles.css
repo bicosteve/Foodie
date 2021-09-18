@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 110%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilda Display', serif;
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+}
+
+.home__section {
+  height: 70vh;
+  /* margin: 2rem 0; */
+}
+
+/* .main__header {
+  height: 3rem;
+} */
+
+.header__container {
+  max-width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__header__brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand__logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav__list-item {
+  margin: 0.5rem 1rem;
+}
+
+.nav__list-item:last-of-type {
+  padding: 0.3rem 1rem;
+  background-color: #ff9f0d;
+  border-radius: 5px;
+}
+
+.nav__list-item a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.2rem 0.4rem;
+  color: black;
+  font-weight: 400;
+}
+
+.nav__list-item a:hover {
+  border-bottom: 1px solid #ff9f0d;
+}
+
+.display__container {
+  max-width: 80%;
+  margin: 3.5rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lead {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.lead h1 {
+  margin: 0.5rem 0;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 250%;
+  color: #484848;
+}
+
+.lead p {
+  text-align: center;
+  font-weight: 100;
+  font-size: 170%;
+  color: #484848;
+  margin: 0.5rem 0;
+}
+
+.image_container {
+  max-width: 50%;
+  padding: 0 0.5rem;
+}
+
+.image_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.order_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+  margin: 1.5rem auto;
+  border-radius: 25px;
+  background-color: #ff9f0d;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.order_button p {
+  color: white;
+  margin: 0 0.3rem;
+}
